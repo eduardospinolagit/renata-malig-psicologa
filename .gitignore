@@ -1,0 +1,6 @@
+# Arquivos internos do projeto (nao vao para o repo publico)
+infos.txt
+*.csv
+midia/originais/
+.DS_Store
+Thumbs.db

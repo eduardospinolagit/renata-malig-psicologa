@@ -1,0 +1,47 @@
+# robots.txt - Renata Malig Psicologia
+# https://drarenatamalig.com.br
+
+User-agent: *
+Allow: /
+
+# Bloqueia arquivos internos do projeto
+Disallow: /infos.txt
+Disallow: /midia/originais/
+Disallow: /*.csv$
+
+# Rastreadores de IA generativa (liberados: ajudam a marca a ser citada)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Raspadores agressivos sem retorno para o site
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+Sitemap: https://drarenatamalig.com.br/sitemap.xml
