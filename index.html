@@ -6,12 +6,12 @@
 
 <!-- ============ SEO PRINCIPAL ============
      Dominio de producao: https://drarenatamalig.com.br -->
-<title>Psicóloga Infantil em Balneário Camboriú | Renata Malig, CRP 12/26909</title>
+<title>Psicóloga Infantil em Balneário Camboriú | Dra. Renata Malig, CRP 12/26909</title>
 <meta name="description" content="Psicóloga para crianças, adolescentes e famílias em Balneário Camboriú e online. Terapia Cognitivo Comportamental e Sistêmica, com formação em TDAH e Psicopedagogia. Atendimento em português, espanhol, inglês e italiano. Agende pelo WhatsApp.">
 <link rel="canonical" href="https://drarenatamalig.com.br/">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <meta name="googlebot" content="index, follow">
-<meta name="author" content="Renata Malig">
+<meta name="author" content="Dra. Renata Malig">
 <meta name="theme-color" content="#FBF6F3" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#2C1F19" media="(prefers-color-scheme: dark)">
 <meta name="format-detection" content="telephone=no">
@@ -25,18 +25,18 @@
 <!-- ============ OPEN GRAPH ============ -->
 <meta property="og:type" content="website">
 <meta property="og:locale" content="pt_BR">
-<meta property="og:site_name" content="Renata Malig Psicologia">
+<meta property="og:site_name" content="Psicóloga Dra. Renata Malig">
 <meta property="og:url" content="https://drarenatamalig.com.br/">
-<meta property="og:title" content="Psicóloga Infantil em Balneário Camboriú | Renata Malig">
+<meta property="og:title" content="Psicóloga Infantil em Balneário Camboriú | Dra. Renata Malig">
 <meta property="og:description" content="Psicoterapia para crianças, adolescentes e famílias, presencial em Balneário Camboriú e online. TCC e Terapia Sistêmica.">
 <meta property="og:image" content="https://drarenatamalig.com.br/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Renata Malig, psicóloga clínica em Balneário Camboriú">
+<meta property="og:image:alt" content="Dra. Renata Malig, psicóloga clínica em Balneário Camboriú">
 
 <!-- ============ TWITTER CARD ============ -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Psicóloga Infantil em Balneário Camboriú | Renata Malig">
+<meta name="twitter:title" content="Psicóloga Infantil em Balneário Camboriú | Dra. Renata Malig">
 <meta name="twitter:description" content="Psicoterapia para crianças, adolescentes e famílias, presencial em Balneário Camboriú e online.">
 <meta name="twitter:image" content="https://drarenatamalig.com.br/og-image.png">
 
@@ -97,9 +97,10 @@ em{font-style:italic;color:var(--clay-dk)}
 .rule{height:1px;background:var(--line-2);width:100%}
 
 /* ---------- reveal ---------- */
-.rv{opacity:0;transform:translateY(26px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
-.rv.in{opacity:1;transform:none}
-@media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+.rv{opacity:0;transform:translateY(26px);filter:blur(9px);transition:opacity .9s var(--ease),transform .9s var(--ease),filter 1s var(--ease)}
+.rv.in{opacity:1;transform:none;filter:blur(0)}
+.rv.done{filter:none;transition:none}
+@media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;filter:none;transition:none}html{scroll-behavior:auto}}
 
 /* ---------- nav ---------- */
 .nav{position:fixed;inset:0 0 auto 0;z-index:120;background:rgba(251,246,243,.82);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid transparent;transition:border-color .4s,background .4s}
@@ -107,7 +108,7 @@ em{font-style:italic;color:var(--clay-dk)}
 .nav-in{display:flex;align-items:center;justify-content:space-between;height:66px}
 .brand{line-height:1.15}
 .brand b{display:block;font-family:'Fraunces',serif;font-weight:500;font-size:1.12rem;color:var(--ink);letter-spacing:-.01em}
-.brand span{display:block;font-size:.6rem;letter-spacing:.24em;text-transform:uppercase;color:var(--clay);font-weight:500;margin-top:2px}
+.brand span{display:block;font-size:.6rem;letter-spacing:.24em;text-transform:uppercase;color:var(--clay);font-weight:500;margin-bottom:3px}
 .menu{display:none}
 .menu a{position:relative;font-size:.82rem;color:var(--ink-2);letter-spacing:.01em}
 .menu a::after{content:"";position:absolute;left:0;bottom:-5px;width:0;height:1px;background:var(--clay);transition:width .35s var(--ease)}
@@ -133,7 +134,7 @@ em{font-style:italic;color:var(--clay-dk)}
 .btn-2:hover{background:var(--blush);border-color:transparent}
 
 /* ---------- hero ---------- */
-.hero{padding:104px 0 0;position:relative;overflow:hidden}
+.hero{padding:86px 0 0;position:relative;overflow:hidden}
 .hero::before{content:"";position:absolute;top:-160px;right:-180px;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle at 40% 40%,var(--blush),transparent 68%);opacity:.85;pointer-events:none}
 .hero-in{position:relative;z-index:2}
 .kicker{display:inline-flex;align-items:center;gap:9px;font-size:.66rem;letter-spacing:.22em;text-transform:uppercase;color:var(--clay-dk);font-weight:500;margin-bottom:22px}
@@ -143,13 +144,14 @@ em{font-style:italic;color:var(--clay-dk)}
 .hero-btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
 .hero-media{margin-top:44px;position:relative}
 .arch{border-radius:220px 220px 6px 6px;overflow:hidden;aspect-ratio:3/3.7;position:relative}
+/* no celular o selo fica embaixo da foto, em linha, para nao cobrir o retrato */
 .hero-badge{
-  position:absolute;left:0;bottom:22px;background:var(--paper);
-  border:1px solid var(--line-2);border-radius:4px;padding:14px 18px;max-width:220px;
-  box-shadow:0 16px 44px rgba(44,31,25,.12)
+  display:flex;align-items:center;gap:14px;margin-top:18px;
+  background:var(--paper);border:1px solid var(--line-2);border-radius:4px;
+  padding:14px 16px;box-shadow:0 10px 30px rgba(44,31,25,.07)
 }
-.hero-badge b{display:block;font-family:'Fraunces',serif;font-size:1.5rem;color:var(--ink);line-height:1}
-.hero-badge span{display:block;font-size:.72rem;color:var(--ink-3);margin-top:6px;line-height:1.45}
+.hero-badge b{flex:none;font-family:'Fraunces',serif;font-size:1.45rem;color:var(--ink);line-height:1}
+.hero-badge span{font-size:.74rem;color:var(--ink-3);line-height:1.45}
 .trust{display:grid;grid-template-columns:1fr;gap:0;margin-top:52px;border-top:1px solid var(--line-2)}
 .trust div{padding:18px 0;border-bottom:1px solid var(--line-2);display:flex;align-items:center;justify-content:center;gap:12px;text-align:center}
 .trust svg{width:17px;height:17px;color:var(--clay);flex:none}
@@ -157,7 +159,7 @@ em{font-style:italic;color:var(--clay-dk)}
 
 /* ---------- fotos ---------- */
 .arch img{width:100%;height:100%;object-fit:cover;display:block;background:var(--paper-2)}
-.hero-media .arch img{object-position:50% 20%}
+.hero-media .arch img{object-position:50% 28%}
 .about-media .arch img{object-position:50% 55%}
 
 /* ---------- cabeçalho de seção ---------- */
@@ -281,7 +283,7 @@ em{font-style:italic;color:var(--clay-dk)}
 /* ---------- desktop ---------- */
 @media (min-width:760px){
   .sec{padding:104px 0}
-  .hero{padding:130px 0 0}
+  .hero{padding:104px 0 0}
   .trust{grid-template-columns:repeat(3,1fr);border-bottom:1px solid var(--line-2)}
   .trust div{border-bottom:none;padding:20px 16px;position:relative}
   .trust div+div::before{content:"";position:absolute;left:0;top:50%;transform:translateY(-50%);width:1px;height:22px;background:var(--line-2)}
@@ -291,6 +293,12 @@ em{font-style:italic;color:var(--clay-dk)}
   .ft-bot{grid-template-columns:1fr auto;align-items:center}
   .steps{grid-template-columns:1fr 1fr;column-gap:40px}
   .steps article{padding:28px 0}
+  .hero-badge{
+    display:block;position:absolute;left:0;bottom:22px;max-width:220px;margin-top:0;
+    padding:14px 18px;box-shadow:0 16px 44px rgba(44,31,25,.12)
+  }
+  .hero-badge b{display:block;font-size:1.5rem}
+  .hero-badge span{display:block;font-size:.72rem;margin-top:6px}
 }
 @media (min-width:980px){
   .menu{display:flex;gap:30px}
@@ -320,7 +328,7 @@ em{font-style:italic;color:var(--clay-dk)}
 
 <nav class="nav" id="nav">
   <div class="wrap nav-in">
-    <a href="#topo" class="brand"><b>Renata Malig</b><span>Psicologia</span></a>
+    <a href="#topo" class="brand"><span>Psicóloga</span><b>Dra. Renata Malig</b></a>
     <div class="menu">
       <a href="#sinais">Quando procurar</a>
       <a href="#sobre">Sobre</a>
@@ -347,7 +355,7 @@ em{font-style:italic;color:var(--clay-dk)}
 <header class="hero" id="topo">
   <div class="wrap hero-in">
     <div class="rv">
-      <span class="kicker">Psicologia clínica · CRP 12/26909</span>
+      <span class="kicker">Psicóloga clínica · CRP 12/26909</span>
       <h1>Cuidar da mente<br>de quem você<br><em>mais ama</em></h1>
       <p class="lead">Psicoterapia para crianças, adolescentes e famílias, com abordagem em Terapia Cognitivo Comportamental e Sistêmica. Atendimento presencial no Centro de Balneário Camboriú e também online.</p>
       <div class="hero-btns">
@@ -361,7 +369,7 @@ em{font-style:italic;color:var(--clay-dk)}
 
     <div class="hero-media rv">
       <div class="arch">
-        <img src="Fotos/renata.jpeg" alt="Renata Malig, psicóloga clínica em Balneário Camboriú" width="960" height="1280" fetchpriority="high" decoding="async">
+        <img src="Fotos/renata-hero.jpeg" alt="Dra. Renata Malig, psicóloga clínica em Balneário Camboriú" width="776" height="1064" fetchpriority="high" decoding="async">
       </div>
       <div class="hero-badge">
         <b>20 anos</b>
@@ -480,7 +488,7 @@ em{font-style:italic;color:var(--clay-dk)}
 
       <div class="quote rv">
         <p>"Nenhuma criança se abre com quem ela não sente que é confiável. O vínculo vem primeiro, sempre."</p>
-        <cite>Renata Malig</cite>
+        <cite>Dra. Renata Malig</cite>
       </div>
     </div>
   </div>
@@ -697,7 +705,7 @@ em{font-style:italic;color:var(--clay-dk)}
   <div class="wrap">
     <div class="ft-top">
       <div>
-        <div class="brand"><b>Renata Malig</b><span>Psicologia</span></div>
+        <div class="brand"><span>Psicóloga</span><b>Dra. Renata Malig</b></div>
         <p style="font-size:.86rem;margin-top:14px;max-width:24rem;color:rgba(251,246,243,.6)">Psicoterapia para crianças, adolescentes e famílias em Balneário Camboriú e online.</p>
         <p style="font-size:.78rem;margin-top:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--blush-2)">CRP 12/26909</p>
       </div>
@@ -716,7 +724,7 @@ em{font-style:italic;color:var(--clay-dk)}
       </div>
     </div>
     <div class="ft-bot">
-      <span>Renata Malig Psicologia. Todos os direitos reservados.</span>
+      <span>Psicóloga Dra. Renata Malig. Todos os direitos reservados.</span>
       <span>Site por <a href="https://sanolab.com.br" target="_blank" rel="noopener">Sano Lab</a></span>
     </div>
   </div>
@@ -734,8 +742,8 @@ em{font-style:italic;color:var(--clay-dk)}
     {
       "@type": ["Psychologist", "LocalBusiness", "MedicalBusiness"],
       "@id": "https://drarenatamalig.com.br/#consultorio",
-      "name": "Renata Malig Psicologia",
-      "alternateName": "Renata Malig, Psicóloga Clínica",
+      "name": "Psicóloga Dra. Renata Malig",
+      "alternateName": "Dra. Renata Malig, Psicóloga Clínica",
       "description": "Consultório de psicologia clínica em Balneário Camboriú especializado em atendimento de crianças, adolescentes e famílias, com abordagem em Terapia Cognitivo Comportamental e Sistêmica. Atende presencialmente e online.",
       "url": "https://drarenatamalig.com.br/",
       "telephone": "+5547992484811",
@@ -792,13 +800,14 @@ em{font-style:italic;color:var(--clay-dk)}
     {
       "@type": "Person",
       "@id": "https://drarenatamalig.com.br/#renata",
-      "name": "Renata Malig",
+      "name": "Dra. Renata Malig",
+      "alternateName": "Renata Malig",
       "jobTitle": "Psicóloga Clínica",
       "description": "Psicóloga clínica em Balneário Camboriú especializada em crianças, adolescentes e famílias, com abordagem em Terapia Cognitivo Comportamental e Sistêmica, mais de 20 anos de experiência em liderança escolar e 23 anos de vivência no exterior. Atende em português, espanhol, inglês e italiano.",
       "url": "https://drarenatamalig.com.br/",
       "telephone": "+5547992484811",
       "worksFor": { "@id": "https://drarenatamalig.com.br/#consultorio" },
-      "image": "https://drarenatamalig.com.br/Fotos/renata.jpeg",
+      "image": "https://drarenatamalig.com.br/Fotos/renata-hero.jpeg",
       "sameAs": ["https://www.instagram.com/psicologadrarenatam/"],
       "knowsLanguage": ["pt-BR", "es", "en", "it"],
       "identifier": {
@@ -834,7 +843,7 @@ em{font-style:italic;color:var(--clay-dk)}
       "@type": "WebSite",
       "@id": "https://drarenatamalig.com.br/#site",
       "url": "https://drarenatamalig.com.br/",
-      "name": "Renata Malig Psicologia",
+      "name": "Psicóloga Dra. Renata Malig",
       "inLanguage": "pt-BR",
       "publisher": { "@id": "https://drarenatamalig.com.br/#consultorio" }
     },
@@ -842,7 +851,7 @@ em{font-style:italic;color:var(--clay-dk)}
       "@type": "WebPage",
       "@id": "https://drarenatamalig.com.br/#pagina",
       "url": "https://drarenatamalig.com.br/",
-      "name": "Psicóloga Infantil em Balneário Camboriú | Renata Malig, CRP 12/26909",
+      "name": "Psicóloga Infantil em Balneário Camboriú | Dra. Renata Malig, CRP 12/26909",
       "description": "Psicóloga para crianças, adolescentes e famílias em Balneário Camboriú e online. Terapia Cognitivo Comportamental e Sistêmica.",
       "isPartOf": { "@id": "https://drarenatamalig.com.br/#site" },
       "about": { "@id": "https://drarenatamalig.com.br/#renata" },
@@ -923,7 +932,14 @@ em{font-style:italic;color:var(--clay-dk)}
 
   var io=new IntersectionObserver(function(entries){
     entries.forEach(function(e){
-      if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}
+      if(e.isIntersecting){
+        var el=e.target;
+        el.classList.add('in');
+        io.unobserve(el);
+        // tira o filtro depois da animacao: blur permanente mantem uma camada
+        // de composicao viva em cada bloco e pesa na rolagem do celular
+        setTimeout(function(){el.classList.add('done');},1400);
+      }
     });
   },{threshold:.12,rootMargin:'0px 0px -8% 0px'});
   document.querySelectorAll('.rv').forEach(function(el,i){
