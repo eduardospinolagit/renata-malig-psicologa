@@ -1,0 +1,6 @@
+# Nunca publicar: briefing e dados da cliente
+infos.txt
+*.csv
+midia/originais/
+.DS_Store
+Thumbs.db
