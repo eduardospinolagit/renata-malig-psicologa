@@ -10,7 +10,7 @@
       ]
     },
     {
-      "source": "/(favicon.ico|favicon-96x96.png|icon-192.png|icon-512.png|apple-touch-icon.png|og-image.png|og-image-vicios.jpg)",
+      "source": "/(favicon.ico|favicon-96x96.png|icon-192.png|icon-512.png|apple-touch-icon.png|og-image.png|og-image-infantil.jpg|og-image-adultos-e-casais.jpg|og-image-vicios.jpg)",
       "headers": [
         { "key": "Cache-Control", "value": "public, max-age=2592000" }
       ]

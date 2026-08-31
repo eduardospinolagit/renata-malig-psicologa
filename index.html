@@ -330,7 +330,7 @@ em{font-style:italic;color:var(--clay-dk)}
   .hero-badge span{display:block;font-size:.72rem;margin-top:6px}
 }
 @media (min-width:980px){
-  .menu{display:flex;gap:30px}
+  .menu{display:flex;gap:23px}
   .nav-cta{display:inline-flex}
   .burger{display:none}
   .hero-in{display:grid;grid-template-columns:1.05fr .85fr;gap:60px;align-items:center}
@@ -351,6 +351,23 @@ em{font-style:italic;color:var(--clay-dk)}
   .info{grid-template-columns:1fr;margin-bottom:0}
   .map{height:420px}
 }
+
+/* ---------- bloco de sinais do adulto, dentro da secao 01 ---------- */
+.adult-box{margin-top:30px;background:var(--paper-2);border:1px solid var(--line-2);border-radius:4px;padding:26px 22px}
+.adult-box .ab-tag{display:block;font-size:.64rem;letter-spacing:.22em;text-transform:uppercase;color:var(--clay);font-weight:500;margin-bottom:14px}
+.adult-box h3{font-size:clamp(1.3rem,5.2vw,1.65rem);margin-bottom:12px;line-height:1.2}
+.adult-box>p{font-size:.94rem;line-height:1.7;max-width:42rem}
+.adult-box ul{list-style:none;margin-top:18px;border-top:1px solid var(--line-2)}
+.adult-box li{position:relative;padding:12px 0 12px 22px;font-size:.92rem;line-height:1.55;color:var(--ink-2);border-bottom:1px solid var(--line-2)}
+.adult-box li::before{content:"";position:absolute;left:0;top:20px;width:9px;height:1px;background:var(--clay)}
+.adult-box .more{display:inline-flex;align-items:center;gap:8px;margin-top:20px;font-size:.84rem;font-weight:500;color:var(--clay-dk);border-bottom:1px solid var(--blush-2);padding-bottom:3px;transition:color .35s,border-color .35s}
+.adult-box .more:hover{color:var(--ink);border-color:var(--ink)}
+.adult-box .more svg{width:13px;height:13px;flex:none}
+@media (min-width:760px){
+  .adult-box{padding:34px 32px}
+  .adult-box ul{columns:2;column-gap:40px}
+  .adult-box li{break-inside:avoid}
+}
 </style>
 </head>
 <body>
@@ -362,7 +379,8 @@ em{font-style:italic;color:var(--clay-dk)}
       <a href="#sinais">Quando procurar</a>
       <a href="#sobre">Sobre</a>
       <a href="#atendimentos">Atendimentos</a>
-      <a href="#processo">Como funciona</a>
+      <a href="/psicologia-infantil">Crianças</a>
+      <a href="/adultos-e-casais">Adultos e casais</a>
       <a href="/vicios">Vícios</a>
       <a href="#contato">Contato</a>
     </div>
@@ -376,6 +394,8 @@ em{font-style:italic;color:var(--clay-dk)}
   <a href="#sobre">Sobre</a>
   <a href="#atendimentos">Atendimentos</a>
   <a href="#processo">Como funciona</a>
+  <a href="/psicologia-infantil">Crianças e adolescentes</a>
+  <a href="/adultos-e-casais">Adultos e casais</a>
   <a href="/vicios">Vícios e dependências</a>
   <a href="#duvidas">Dúvidas</a>
   <a href="#contato">Contato</a>
@@ -446,7 +466,7 @@ em{font-style:italic;color:var(--clay-dk)}
       <div class="row"><dt>Endereço</dt><dd>R. 3300, 360, Centro, Balneário Camboriú, SC, CEP 88330-272</dd></div>
       <div class="row"><dt>Horários</dt><dd>Segunda a sexta, das 09h às 20h</dd></div>
       <div class="row"><dt>Agendamento</dt><dd><a href="https://wa.me/5547992484811?text=Ol%C3%A1%2C%20Renata.%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20conversa." target="_blank" rel="noopener">WhatsApp (47) 99248-4811</a></dd></div>
-      <div class="row"><dt>Página relacionada</dt><dd><a href="/vicios">Psicoterapia para vícios e dependências</a></dd></div>
+      <div class="row"><dt>Páginas relacionadas</dt><dd><a href="/psicologia-infantil">Psicoterapia infantil e de adolescentes</a>, <a href="/adultos-e-casais">psicoterapia para adultos e terapia de casal</a> e <a href="/vicios">psicoterapia para vícios e dependências</a></dd></div>
     </dl>
   </div>
 </section>
@@ -475,6 +495,22 @@ em{font-style:italic;color:var(--clay-dk)}
 
     <div class="note rv">
       <p>Se você reconheceu a sua casa em alguma dessas linhas, a psicoterapia é o caminho mais curto para entender o que está acontecendo e o que fazer a respeito.</p>
+    </div>
+
+    <div class="adult-box rv">
+      <span class="ab-tag">E quando quem precisa é você</span>
+      <h3>Nem sempre quem chega primeiro<br>é quem mais está sofrendo</h3>
+      <p>Boa parte dos adultos que atendo procurou o consultório pensando em um filho e acabou descobrindo que também precisava de um espaço próprio. Outros vêm direto por si mesmos, ou como casal. Atendo os dois caminhos, e com a mesma seriedade.</p>
+      <ul>
+        <li>Ansiedade que aperta o peito e uma cabeça que não desliga</li>
+        <li>Desânimo persistente, cansaço que dormir não resolve</li>
+        <li>A mesma discussão com o parceiro se repetindo há anos</li>
+        <li>Esgotamento de sustentar todo mundo sem ter com quem dividir</li>
+      </ul>
+      <a class="more" href="/adultos-e-casais">
+        Ver o atendimento para adultos e casais
+        <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
     </div>
   </div>
 </section>
@@ -570,6 +606,10 @@ em{font-style:italic;color:var(--clay-dk)}
           <h3>Crianças</h3>
           <p>Pelo brincar e por recursos lúdicos, a criança expressa o que ainda não consegue colocar em palavras. Trabalhamos ansiedade, medos, birras, adaptação escolar, luto e separação dos pais, sempre com devolutivas para a família.</p>
           <div class="chips"><span>Ansiedade infantil</span><span>Birras e limites</span><span>TDAH</span><span>Dificuldades de aprendizagem</span><span>Adaptação escolar</span><span>Luto e separação</span></div>
+          <a class="more" href="/psicologia-infantil">
+            Conhecer o atendimento infantil
+            <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
         </div>
       </article>
 
@@ -579,6 +619,10 @@ em{font-style:italic;color:var(--clay-dk)}
           <h3>Adolescentes</h3>
           <p>Um espaço só dele, com sigilo e sem julgamento, para falar de autoestima, ansiedade, pressão escolar, relacionamentos e identidade. O objetivo é que ele saia com mais autonomia emocional, e não com mais uma cobrança na lista.</p>
           <div class="chips"><span>Autoestima</span><span>Ansiedade</span><span>Pressão escolar</span><span>Relacionamentos</span></div>
+          <a class="more" href="/psicologia-infantil">
+            Conhecer o atendimento de adolescentes
+            <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
         </div>
       </article>
 
@@ -587,7 +631,11 @@ em{font-style:italic;color:var(--clay-dk)}
         <div>
           <h3>Adultos</h3>
           <p>Um espaço para quem vem carregando sozinho há tempo demais. Ansiedade, exaustão, luto, autoestima, mudanças de fase e decisões difíceis, com um trabalho prático e de objetivos claros, para que a semana comece a ficar mais leve e não apenas mais compreendida.</p>
-          <div class="chips"><span>Ansiedade</span><span>Estresse e exaustão</span><span>Autoestima</span><span>Luto</span><span>Mudanças de vida</span></div>
+          <div class="chips"><span>Ansiedade</span><span>Depressão</span><span>Estresse e exaustão</span><span>Autoestima</span><span>Luto</span><span>Mudanças de vida</span></div>
+          <a class="more" href="/adultos-e-casais">
+            Conhecer o atendimento para adultos
+            <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
         </div>
       </article>
 
@@ -597,6 +645,10 @@ em{font-style:italic;color:var(--clay-dk)}
           <h3>Casais</h3>
           <p>Quando toda conversa vira a mesma briga, ou quando o silêncio já ocupa mais espaço do que o diálogo. A terapia de casal recupera a comunicação, trata mágoas acumuladas e ajuda os dois a decidirem juntos o que querem construir daqui em diante.</p>
           <div class="chips"><span>Comunicação</span><span>Conflitos recorrentes</span><span>Confiança</span><span>Parentalidade compartilhada</span><span>Recomeços</span></div>
+          <a class="more" href="/adultos-e-casais">
+            Conhecer a terapia de casal
+            <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
         </div>
       </article>
 
@@ -684,7 +736,7 @@ em{font-style:italic;color:var(--clay-dk)}
     <div class="sh rv">
       <span class="num">05 / Dúvidas</span>
       <div>
-        <h2>Perguntas que os pais<br>costumam fazer</h2>
+        <h2>Perguntas que chegam<br>antes da primeira sessão</h2>
       </div>
     </div>
 
@@ -707,7 +759,15 @@ em{font-style:italic;color:var(--clay-dk)}
       </details>
       <details>
         <summary>A Renata atende adultos e casais?</summary>
-        <div class="ans">Sim. O consultório atende crianças, adolescentes, adultos, casais e famílias, presencialmente em Balneário Camboriú e online. A terapia de casal e o atendimento individual de adultos seguem as mesmas abordagens, Terapia Cognitivo Comportamental e Terapia Sistêmica.</div>
+        <div class="ans">Sim, e hoje esta é a maior parte dos atendimentos. O consultório atende crianças, adolescentes, adultos, casais e famílias, presencialmente em Balneário Camboriú e online. O atendimento individual de adultos abrange ansiedade, depressão, oscilações de humor, esgotamento, luto e relações abusivas, e a terapia de casal segue as mesmas abordagens, Terapia Cognitivo Comportamental e Terapia Sistêmica. O detalhamento está na <a href="/adultos-e-casais">página de adultos e casais</a>.</div>
+      </details>
+      <details>
+        <summary>O adoecimento do meu filho pode vir de um adoecimento da família?</summary>
+        <div class="ans">Com mais frequência do que se imagina. Criança não tem vocabulário para nomear o que sente, então expressa pelo corpo e pelo comportamento: dor de barriga antes da escola, birra que não passa, sono que não vem, nota que cai. Quando o clima da casa está pesado, o filho costuma ser o primeiro a dar sinal. Isso não é culpa dos pais, é informação, e é o que permite montar uma intervenção que olha para a casa inteira em vez de tratar apenas a criança.</div>
+      </details>
+      <details>
+        <summary>Pais em sofrimento impactam a saúde mental dos filhos?</summary>
+        <div class="ans">Sim. Um pai exausto tem menos paciência, uma mãe deprimida tem menos disponibilidade emocional, e a criança percebe essa mudança antes de qualquer adulto explicar. Por isso cuidar da própria saúde mental não é egoísmo nem luxo: é uma das intervenções mais eficazes que existem também na saúde mental de um filho. Em muitos casos o caminho mais curto é atender os pais, ou trabalhar pais e filho em paralelo.</div>
       </details>
       <details>
         <summary>Quanto tempo dura o tratamento?</summary>
@@ -813,6 +873,8 @@ em{font-style:italic;color:var(--clay-dk)}
         <a href="#sobre">Sobre</a>
         <a href="#atendimentos">Atendimentos</a>
         <a href="#processo">Como funciona</a>
+        <a href="/psicologia-infantil">Crianças e adolescentes</a>
+        <a href="/adultos-e-casais">Adultos e casais</a>
         <a href="/vicios">Vícios e dependências</a>
         <a href="#duvidas">Dúvidas</a>
       </nav>
@@ -1021,9 +1083,11 @@ em{font-style:italic;color:var(--clay-dk)}
         "geoRadius": "60000"
       },
       "currenciesAccepted": "BRL",
-      "makesOffer": {
-        "@id": "https://drarenatamalig.com.br/vicios#servico"
-      }
+      "makesOffer": [
+        { "@id": "https://drarenatamalig.com.br/psicologia-infantil#servico" },
+        { "@id": "https://drarenatamalig.com.br/adultos-e-casais#servico" },
+        { "@id": "https://drarenatamalig.com.br/vicios#servico" }
+      ]
     },
     {
       "@type": "Person",
@@ -1191,6 +1255,8 @@ em{font-style:italic;color:var(--clay-dk)}
       },
       "significantLink": [
         "https://wa.me/5547992484811",
+        "https://drarenatamalig.com.br/psicologia-infantil",
+        "https://drarenatamalig.com.br/adultos-e-casais",
         "https://drarenatamalig.com.br/vicios"
       ],
       "speakable": {
@@ -1246,7 +1312,23 @@ em{font-style:italic;color:var(--clay-dk)}
           "name": "A Renata atende adultos e casais?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sim. O consultório atende crianças, adolescentes, adultos, casais e famílias, presencialmente em Balneário Camboriú e online. A terapia de casal e o atendimento individual de adultos seguem as mesmas abordagens, Terapia Cognitivo Comportamental e Terapia Sistêmica."
+            "text": "Sim, e hoje esta é a maior parte dos atendimentos. O consultório atende crianças, adolescentes, adultos, casais e famílias, presencialmente em Balneário Camboriú e online. O atendimento individual de adultos abrange ansiedade, depressão, oscilações de humor, esgotamento, luto e relações abusivas, e a terapia de casal segue as mesmas abordagens, Terapia Cognitivo Comportamental e Terapia Sistêmica."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O adoecimento do meu filho pode vir de um adoecimento da família?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Com mais frequência do que se imagina. Criança não tem vocabulário para nomear o que sente, então expressa pelo corpo e pelo comportamento: dor de barriga antes da escola, birra que não passa, sono que não vem, nota que cai. Quando o clima da casa está pesado, o filho costuma ser o primeiro a dar sinal. Isso não é culpa dos pais, é informação, e permite montar uma intervenção que olha para a casa inteira em vez de tratar apenas a criança."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pais em sofrimento impactam a saúde mental dos filhos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. Um pai exausto tem menos paciência, uma mãe deprimida tem menos disponibilidade emocional, e a criança percebe essa mudança antes de qualquer adulto explicar. Cuidar da própria saúde mental é uma das intervenções mais eficazes que existem também na saúde mental de um filho. Em muitos casos o caminho mais curto é atender os pais, ou trabalhar pais e filho em paralelo."
           }
         },
         {

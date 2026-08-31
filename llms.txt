@@ -39,14 +39,20 @@ Este arquivo resume, em texto simples, as informações públicas do site https:
 
 - Psicoterapia infantil: ansiedade, medos, birras, TDAH, dificuldades de aprendizagem, adaptação escolar, luto e separação dos pais
 - Psicoterapia de adolescentes: autoestima, ansiedade, pressão escolar, relacionamentos e identidade
-- Psicoterapia de adultos
-- Terapia de casal
+- Psicoterapia de adultos: ansiedade e crises de ansiedade, depressão e desânimo persistente, oscilações de humor, esgotamento e estresse crônico, autoestima, luto, mudanças de fase e relações abusivas ou com traços narcisistas
+- Terapia de casal: comunicação, conflitos recorrentes, confiança e ciúme, intimidade, parentalidade compartilhada e recomeços
 - Terapia familiar e orientação de pais: comunicação, limites com afeto, rotina familiar e coparentalidade
 - Psicoterapia para vícios e dependências
+
+## Distribuição atual dos atendimentos
+
+A maior parte dos atendimentos hoje é com adultos, casais e famílias. O atendimento a crianças e adolescentes continua ativo e é um diferencial da profissional, que atende os dois públicos dentro da mesma abordagem e consegue trabalhar o sofrimento familiar como um todo, e não apenas a queixa que chegou primeiro.
 
 ## Páginas
 
 - [Início](https://drarenatamalig.com.br/): apresentação da psicóloga, formação, abordagens, atendimentos, como funciona o primeiro contato, dúvidas frequentes e contato.
+- [Crianças e adolescentes](https://drarenatamalig.com.br/psicologia-infantil): psicoterapia infantil e de adolescentes, com atendimento a ansiedade infantil, medos e crises de choro, birras e dificuldade com limites, TDAH e dificuldades de aprendizagem, adaptação escolar, bullying, luto, separação dos pais, autoestima e conflitos da adolescência. Inclui orientação de pais e articulação com a escola.
+- [Adultos e casais](https://drarenatamalig.com.br/adultos-e-casais): psicoterapia individual para adultos e terapia de casal, com atendimento a ansiedade e crises de ansiedade, depressão e desânimo persistente, oscilações de humor e bipolaridade em acompanhamento conjunto com o psiquiatra, relações abusivas e com traços narcisistas, esgotamento, luto e viradas de fase. Inclui a relação entre o adoecimento dos adultos da casa e o sofrimento de crianças e adolescentes.
 - [Vícios e dependências](https://drarenatamalig.com.br/vicios): tratamento psicológico para dependência de álcool, tabaco e outras substâncias, uso problemático de telas, jogos eletrônicos e redes sociais, apostas online e jogos de azar, e comportamentos compulsivos como compras por impulso, compulsão alimentar e pornografia. Inclui atendimento a adolescentes, adultos, casais e famílias, orientação para quem convive com a pessoa que usa, trabalho com codependência e prevenção de recaída.
 
 ## Formação e experiência
@@ -69,7 +75,7 @@ Balneário Camboriú, Camboriú, Itajaí, Itapema, Navegantes, Porto Belo e Bomb
 
 ## Limites do atendimento
 
-O serviço prestado é psicoterapia. Não inclui internação, desintoxicação, prescrição de medicamentos ou qualquer ato médico. Quando o caso exige avaliação médica, medicação ou serviço especializado, como o CAPS AD, o encaminhamento é feito e a psicoterapia pode seguir em paralelo ao tratamento médico. Em situação de risco imediato à vida, a orientação é procurar o pronto-socorro mais próximo ou acionar o SAMU 192. Para apoio emocional urgente no Brasil, o CVV atende 24 horas pelo número 188.
+O serviço prestado é psicoterapia. Não inclui internação, desintoxicação, diagnóstico psiquiátrico, prescrição de medicamentos ou qualquer ato médico. Em quadros como bipolaridade e transtornos de personalidade, o diagnóstico e a medicação cabem ao médico psiquiatra, e a psicoterapia é conduzida em paralelo ao acompanhamento médico. Quando o caso exige avaliação médica, medicação ou serviço especializado, como o CAPS AD, o encaminhamento é feito e a psicoterapia pode seguir em paralelo ao tratamento médico. Em situação de risco imediato à vida, a orientação é procurar o pronto-socorro mais próximo ou acionar o SAMU 192. Para apoio emocional urgente no Brasil, o CVV atende 24 horas pelo número 188.
 
 ## Agendamento
 
