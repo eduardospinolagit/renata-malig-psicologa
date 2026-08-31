@@ -144,6 +144,9 @@ em{font-style:italic;color:var(--clay-dk)}
 .menu a{position:relative;font-size:.82rem;color:var(--ink-2);letter-spacing:.01em}
 .menu a::after{content:"";position:absolute;left:0;bottom:-5px;width:0;height:1px;background:var(--clay);transition:width .35s var(--ease)}
 .menu a:hover::after{width:100%}
+.menu a[aria-current="page"]{color:var(--ink);font-weight:500}
+.menu a[aria-current="page"]::after{width:100%;background:var(--blush-2)}
+.drawer a[aria-current="page"]{color:var(--clay-dk)}
 .nav-cta{display:none;font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;font-weight:500;color:var(--ink);border:1px solid var(--line);border-radius:999px;padding:10px 20px;transition:background .35s,color .35s,border-color .35s}
 .nav-cta:hover{background:var(--dark);color:var(--paper);border-color:var(--dark)}
 .burger{width:34px;height:34px;display:grid;place-items:center;gap:5px;align-content:center}
@@ -369,10 +372,10 @@ em{font-style:italic;color:var(--clay-dk)}
     <a href="/" class="brand"><span>Psicóloga</span><b>Dra. Renata Malig</b></a>
     <div class="menu">
       <a href="/">Início</a>
-      <a href="#sinais">Quando procurar</a>
-      <a href="#tipos">O que atendo</a>
-      <a href="#processo">Como funciona</a>
-      <a href="#familia">Adulto e família</a>
+      <a href="/#sobre">Sobre</a>
+      <a href="/psicologia-infantil">Crianças</a>
+      <a href="/adultos-e-casais" aria-current="page">Adultos e casais</a>
+      <a href="/vicios">Vícios</a>
       <a href="#contato">Contato</a>
     </div>
     <a class="nav-cta" href="https://wa.me/5547992484811?text=Ol%C3%A1%2C%20Renata.%20Vim%20pela%20p%C3%A1gina%20de%20atendimento%20para%20adultos%20e%20casais%20e%20gostaria%20de%20conversar." target="_blank" rel="noopener">Agendar</a>
@@ -382,12 +385,10 @@ em{font-style:italic;color:var(--clay-dk)}
 
 <div class="drawer" id="drawer">
   <a href="/">Início</a>
-  <a href="#sinais">Quando procurar</a>
-  <a href="#tipos">O que atendo</a>
-  <a href="#quem">Quem atende</a>
-  <a href="#processo">Como funciona</a>
-  <a href="#familia">Adulto e família</a>
-  <a href="#duvidas">Dúvidas</a>
+  <a href="/#sobre">Sobre</a>
+  <a href="/psicologia-infantil">Crianças</a>
+  <a href="/adultos-e-casais" aria-current="page">Adultos e casais</a>
+  <a href="/vicios">Vícios</a>
   <a href="#contato">Contato</a>
   <a class="dw-cta" href="https://wa.me/5547992484811?text=Ol%C3%A1%2C%20Renata.%20Vim%20pela%20p%C3%A1gina%20de%20atendimento%20para%20adultos%20e%20casais%20e%20gostaria%20de%20conversar." target="_blank" rel="noopener">Agendar pelo WhatsApp</a>
 </div>
